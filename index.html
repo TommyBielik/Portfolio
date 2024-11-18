@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <div class="big-ball"></div>
+    <div class="shadow-top"></div>
+    <section id="profile">
+        <div class="profile-container">
+            <div class="container">
+                <h1 class="text">Tomáš Bielik</h1>
+                <img
+                src="assets/ciernobiela-square.png"
+                class="profile-pic"
+                alt="Profile picture">
+                <div class="socials-container">
+                    <img 
+                    src="assets/facebook.png"
+                    class="icon social-icons"
+                    onclick="window.open('https://www.facebook.com/profile.php?id=100009624827520')"
+                    alt="Facebook">
+                    <img 
+                    src="assets/github.png" 
+                    class="icon social-icons" 
+                    onclick="window.open('https://github.com/TommyBielik')"
+                    alt="Github">
+                </div>
+            </div>
+            <div id="nav-div">
+                <nav id="nav-links">
+                    <div class="nav-ball-container">
+                        <div class="ball"></div>
+                        <a href="#about" class="nav-btn">O mne</a>
+                    </div>
+                    <div class="nav-ball-container">
+                        <div class="ball"></div>
+                        <a href="#certificates" class="nav-btn">Certifikáty</a>
+                    </div>
+                    <div class="nav-ball-container">
+                        <div class="ball"></div>
+                        <a href="#projects" class="nav-btn">Projekty</a>
+                    </div>
+                    <div class="nav-ball-container">
+                        <div class="ball"></div>
+                        <a href="#contact" class="nav-btn">Kontakt</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <a href="#about" id="arrow">
+            <img src="assets/arrow.png" class="icon arrow" alt="arrow">
+        </a>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-title-container">
+                <div class="title-container">
+                    <h1>O mne</h1>
+                </div>
+                <div class="text-container">
+                    <p>Som študentom tretieho ročníka Japanológie na Univerzite Komenského v Bratislave. 
+                        Okrem štúdia ázijských jazykov sa vo voľnom čase venujem programovaniu a rozširovaniu svojich zručností v rôznych programovacích jazykoch. 
+                        Absolvoval som niekoľko kurzov, no najviac sa učím prácou na vlastných projektoch, ktoré neustále pribúdajú.
+                        Okrem programovania trávim čas s priateľkou, rodinou alebo ma nájdete v kuchyni, kde rád varím. Keď mám voľnú chvíľu, rád si oddýchnem pri dobrej hre.
+                    </p>
+                </div>
+            </div>
+            <div class="light-container">
+                <span class="purple-light"></span>   
+            </div>
+            <div class="img-container">
+                <img src="assets/ciernobiela.png" id="profile-pic" alt="Profile photo">
+            </div>
+        </div>
+        <a href="#certificates" id="arrow">
+            <img src="assets/arrow.png" class="icon arrow" alt="arrow">
+        </a>
+    </section>
+    <section id="certificates">
+        <div class="certificates-content">
+            <div class="certificates-title">
+                <h1>Certifikáty</h1>
+            </div>
+            <div class="certificates-container">
+                <div class="certificate-text-container"> 
+                    <img
+                    src="assets/CAE C1.png"
+                    class="certificate"
+                    onclick="window.open('./assets/CAE C1.pdf')"
+                    alt="CAE C1">
+                    <p class="certificate-text">
+                        CAE C1 Advanced English
+                    </p> 
+                </div>    
+                <div class="certificate-text-container">
+                    <img
+                    src="assets/CS50x.png"
+                    class="certificate"
+                    onclick="window.open('./assets/CS50x.pdf')"
+                    alt="CS50x"> 
+                    <p class="certificate-text">
+                        Harvard's CS50 Introduction to computer science
+                    </p>
+                </div>
+                <div class="certificate-text-container">
+                    <img
+                    src="assets/ECDL.png"
+                    class="certificate"
+                    onclick="window.open('./assets/ECDL.pdf')"
+                    alt="ECDL"> 
+                    <p class="certificate-text">
+                        European Computer Driving License
+                    </p>
+                </div>    
+                <div class="certificate-text-container">
+                    <img
+                    src="assets/Java-programming-1.png"
+                    class="certificate"
+                    onclick="window.open('./assets/ECDL.pdf')"
+                    alt="ECDL"> 
+                    <p class="certificate-text">
+                        Java Programming I by University Of Helsinki
+                    </p>
+                </div> 
+            </div>
+        </div>
+        <a href="#projects" id="arrow">
+            <img src="assets/arrow.png" class="icon arrow" alt="arrow">
+        </a>
+    </section>
+    <section id="projects">
+        <div class="projects-div">
+            <div class="title">
+                <h1>Projekty</h1>
+            </div>
+            <div class="projects-container">
+                <div class="project">
+                    <img
+                    src="assets/html.png"
+                    class="project-pic"
+                    alt="Project pic">
+                    <p class="certificate-text">Portfólio</p>
+                    <p class="project-description">Zdrojový kód tohto portfólia</p>
+                    <p class="programming-language">HTML, CSS, JavaScript</p>
+                    <button class="btn">Github</button>
+                </div>
+                <div class="project">
+                    <img
+                    src="assets/kanji.png"
+                    class="project-pic"
+                    alt="Project pic">
+                    <p class="certificate-text">QuickKanji</p>
+                    <p class="project-description">Webstránka na automatické vytváranie japonských flashcards</p>
+                    <p class="programming-language">SpringBoot, React</p>
+                    <button class="btn"
+                            onclick="window.open('https://github.com/TommyBielik/KanjiFlashcards')">
+                            Github
+                    </button>
+                </div>
+                <div class="project">
+                    <img
+                    src="assets/database.png"
+                    class="project-pic"
+                    alt="Project pic">
+                    <p class="certificate-text">MyDB</p>
+                    <p class="project-description">Program na prácu s databázami, ktorý dokáže vykonávať CRUD operácie</p>
+                    <p class="programming-language">Java</p>
+                    <button class="btn"
+                            onclick="window.open('https://github.com/TommyBielik/MyDB')">
+                            Github
+                    </button>
+                </div>
+                <div class="project">
+                    <img
+                    src="assets/calculator.png"
+                    class="project-pic"
+                    alt="Project pic">
+                    <p class="certificate-text">Shunting yard kalkulačka</p>
+                    <p class="project-description">Kalkulačka využívajúca Shunting yard algoritmus</p>
+                    <p class="programming-language">Java Swing</p>
+                    <button class="btn" 
+                            onclick="window.open('https://github.com/TommyBielik/Calculator')">
+                            Github
+                    </button>
+                </div>
+                <div class="project">
+                    <img
+                    src="assets/youtube.png"
+                    class="project-pic"
+                    alt="Project pic">
+                    <p class="certificate-text">Youtube MP3 downloader</p>
+                    <p class="project-description">Automation Selenium script </p>
+                    <p class="programming-language">Java Selenium</p>
+                    <button class="btn"
+                            onclick="window.open('https://github.com/TommyBielik/Youtube-to-MP3-automation')">
+                            Github
+                    </button>
+                </div>
+            </div>
+        </div>
+        <a href="#contact" id="arrow">
+            <img src="assets/arrow.png" class="icon arrow" alt="arrow">
+        </a>
+    </section>
+    <section id="contact">
+        <div class="light-container">
+            <span class="purple-light contact-light-left"></span>
+        </div>
+        <div class="contact-section-container">
+            <div class="title">
+                <h1>Kontakt</h1>
+            </div>
+            <div class="contact-container">
+                <img
+                src="assets/mail.png"
+                class="contact-icon"
+                alt="Mail icon">
+                <a href="mailto: tomino243@gmail.com" class="contact">
+                    tomino243@gmail.com
+                </a>
+            </div>
+            <div class="contact-container">
+                <img
+                src="assets/phone.png"
+                class="contact-icon"
+                alt="Phone icon">
+                <a href="tel: +421948181412" class="contact">
+                    +421 948 181 412
+                </a>
+            </div>
+        </div>
+        <div class="light-container">
+            <span class="purple-light contact-light-right"></span>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-footer">
+                <a href="#about" class="nav-btn-footer">
+                    O mne
+                </a>
+                <a href="#certificates" class="nav-btn-footer">
+                    Certifikáty
+                </a>
+                <a href="#profile" class="nav-btn-footer">
+                    Profil
+                </a>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Tomáš Bielik</p>
+    </footer>
+    <div class="shadow-down"></div>
+    <script src="script.js"></script>
+</body>
+</html>
