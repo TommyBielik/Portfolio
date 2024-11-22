@@ -16,7 +16,6 @@ html {
 }
 
 section {
-    height: 100vh;
     transition: opacity 3s ease;
     opacity: 0;
 }
@@ -120,7 +119,6 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100vh;
 }
 
 .text{
@@ -141,6 +139,7 @@ p {
     align-content: center;
     flex-wrap: wrap;
     width: 100vw;
+    margin-bottom: 10rem;
 }
 
 .container {
@@ -255,8 +254,8 @@ p {
 }
 #about {
     align-items: center;
-    height: 100vh;
     position: relative;
+    margin-bottom: 5rem;
 }
 
 .about-container {
@@ -264,7 +263,7 @@ p {
     align-self: center;
     flex-wrap: wrap;
     flex: 1;
-    width: 50vw;
+    height: 100vh;
     gap: 7rem;
 }
 
@@ -324,6 +323,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    min-height: 100vh;
     gap: 2rem;
 }
 
@@ -353,7 +353,6 @@ p {
 /* PROJECTS SECTION */
 #projects {
     position: relative;
-    height: 160vh;
 }
 .title {
     display: flex;
@@ -361,8 +360,6 @@ p {
 }
 
 .projects-div {
-    position: relative;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

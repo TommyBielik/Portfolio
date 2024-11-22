@@ -9,13 +9,8 @@
         font-size: 12vw;
     }
 
-    section {
-        height: 200vh;
-    }
-
     /* PROFILE SECTION */
     #profile {
-        min-height: 150vh;
         width: 100vw;
         flex-direction: column;
         justify-content: flex-start;
@@ -41,13 +36,13 @@
 
     /* ABOUT SECTION */
     #about {
-        height: 220vh;
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .about-container {
         justify-content: flex-start;
-        height: 20vh;
+        height: 200vh;
     }
 
     .about-container  {
@@ -70,7 +65,7 @@
     }
 
     #profile-pic {
-        height: 40vh;
+        display: none;
     }
 
     /* CERTIFICATES SECTION */
@@ -88,10 +83,6 @@
     }
 
     /* PROJECTS SECTION*/
-    #projects {
-        height: 420vh;
-    }
-
     .project {
         width: 70%;
     }
@@ -142,9 +133,5 @@
     .big-ball,
     .ball {
         display: none;
-    }
-    
-    #projects {
-        height: 170vh;
     }
 }
