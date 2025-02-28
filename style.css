@@ -252,18 +252,10 @@ p {
     display: flex;
     justify-content: center;
 }
-#about {
-    align-items: center;
-    position: relative;
-    margin-bottom: 5rem;
-}
 
 .about-container {
     justify-content: center;
-    align-self: center;
     flex-wrap: wrap;
-    flex: 1;
-    height: 100vh;
     gap: 7rem;
 }
 
