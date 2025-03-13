@@ -253,6 +253,10 @@ p {
     justify-content: center;
 }
 
+#about {
+    position: relative;
+}
+
 .about-container {
     justify-content: center;
     flex-wrap: wrap;

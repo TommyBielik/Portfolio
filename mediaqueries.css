@@ -42,7 +42,6 @@
 
     .about-container {
         justify-content: flex-start;
-        height: 200vh;
     }
 
     .about-container  {
@@ -69,10 +68,6 @@
     }
 
     /* CERTIFICATES SECTION */
-    #certificates {
-        height: 200vh;
-    }
-
     .certificates-content {
         justify-content: center;
         align-items: center;
@@ -133,5 +128,26 @@
     .big-ball,
     .ball {
         display: none;
+    }
+
+    #profile-pic {
+        display: none;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-title-container {
+        align-items: center;
+    }
+
+    .about-light-container {
+        display: none;
+    }
+
+    .text-container {
+        width: 60vw;
+        justify-content: center;
     }
 }
